@@ -45,6 +45,7 @@ Here are the resources that should be useful for you:
 * [Developer Q&A forum](https://community.dynatrace.com/t5/Developer-Q-A-Forum/bd-p/devs_qanda) - You can ask any question regarding creating a Dynatrace App in this forum. Together with my team, we are responsible for answering the questions there.
 * [Developer newsletter](https://community.dynatrace.com/t5/Developer-Blog/bg-p/dev_blog) All the important changes for developers building Dynatrace Apps monthly.
 * [Monthly office hours session about Dynatrace app development](https://community.dynatrace.com/t5/Events-and-webinars/eb-p/events?filter=includeUpcoming&depth=0&byPassHideMessagesFromListFilter=true&sort_by=occasionStartTime&include_upcoming=true)
-* [AppEngine blogs](https://www.dynatrace.com/news/tag/appengine/)
-  * [Building custom workflow actions](https://www.dynatrace.com/news/blog/build-custom-workflow-actions-dynatrace-app-toolkit/) 
+* [webinar and blogs](https://www.dynatrace.com/news/tag/appengine/)
+  * [Building custom workflow actions](https://www.dynatrace.com/news/blog/build-custom-workflow-actions-dynatrace-app-toolkit/)
+  * [webinar - Creating custom solutions with ease: A journey through app development with Omnilogy](https://info.dynatrace.com/global-all-wc-partner-app-developer-journey-with-omnilogy-24634-registration.html)
   
