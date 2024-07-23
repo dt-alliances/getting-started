@@ -12,10 +12,10 @@
 4. Refer to these [guides](https://github.com/dynatrace-perfclinics/dynatrace-getting-started) for trying out your and the `Discover Dynatrace environment`
    
 5. Invite users to your account
-   * Open account management by opening [the My account URL](https://myaccount.dynatrace.com/accounts) or from the bottom left menu on the your Dynatrace account
+   * Open account management by opening [the My account URL](https://myaccount.dynatrace.com/accounts) or from the bottom left menu, "Account Management" in the Dynatrace web UI>
    * Dynatrace has role based permissions.  You can made custom groups or easily clone the permissions of an existing users, but stick to `least privileges access` best practice.  Refer to the [Account Managment Docs](https://docs.dynatrace.com/docs/manage/account-management)
 
-# Discover and Demo Environments 
+# Discover and Demo Environments that have exsting sample apps, dashboards, and data
 
 You need a Dynatrace SSO to have access to these.  As a partner you can register on the [Dynatrace partner portal](https://partners.dynatrace.com) and then access these two environments.
 
@@ -28,26 +28,31 @@ Dynatrace is an open and [extensible platform](https://docs.dynatrace.com/docs/e
 
 ## Log streaming
 
-* all they need to do is configure it to this [log ingest API](https://docs.dynatrace.com/docs/dynatrace-api/environment-api/log-monitoring-v2/post-ingest-logs) and to have setup an API Token as described in the guide.  
-* A quick way to validate logs coming is with [log viewer](https://docs.dynatrace.com/docs/observe-and-explore/logs/lma-analysis/logs-and-events) or in a [notebook](https://docs.dynatrace.com/docs/observe-and-explore/dashboards-and-notebooks/notebooks).
+* To stream logs into Dynatrace, use the [log ingest API](https://docs.dynatrace.com/docs/dynatrace-api/environment-api/log-monitoring-v2/post-ingest-logs). For this follow the requirements for Content-Type and Authorization headers and required API Token scope as described in the guide.
+* Guide to [create API Token](https://docs.dynatrace.com/docs/dynatrace-api/basics/dynatrace-api-authentication)
+* Validate logs coming is with the [log viewer](https://docs.dynatrace.com/docs/observe-and-explore/logs/lma-analysis/logs-and-events) or in a [notebook](https://docs.dynatrace.com/docs/observe-and-explore/dashboards-and-notebooks/notebooks).
 
 Learn more about Dynatrace OpenPipeline for data processing
 * [Annoucement Blog](https://www.dynatrace.com/news/blog/dynatrace-openpipeline-converging-observability-security-and-business-data-at-massive-scale-for-unmatched-analytics-in-context/)
 * (Documentation](https://docs.dynatrace.com/docs/platform/openpipeline/concepts/data-flow)
 
 ## APIs
-Here are some guide for the API as reference too.
+
+Dyntrace has a rich set of API to query, load data, and update the Dynatrace configuration.
 * [API overview](https://docs.dynatrace.com/docs/dynatrace-api/basics)
 * [Create API Token](https://docs.dynatrace.com/docs/dynatrace-api/basics/dynatrace-api-authentication)
 * Open `https://{your-environment-id}.apps.dynatrace.com/platform/swagger-ui/index.html` for the Swagger Interface for your environment.  Use the top right dropdown to choose the API definition work with.
 
-## OpenTelemetry 
+## OpenTelemetry
 
+Dyntrace is both a significant contributor to the project as well as a provider to native platform support for Otel metrics, traces, and logs.
 * [OpenTelemetry and Dynatrace Overview](https://docs.dynatrace.com/docs/extend-dynatrace/opentelemetry)
 * [Dynatrace Collector](https://docs.dynatrace.com/docs/extend-dynatrace/opentelemetry/collector)
 * [Ingest API documentation](https://docs.dynatrace.com/docs/dynatrace-api/environment-api/opentelemetry)
 
 ## Custom Applications 
+
+Dynatrace provides the possibility to build custom functionality on top of all the observability data ingested into Dynatrace in the form of custom apps. 
 
 Here are the resources that should be useful for you:
 * [Dynatrace Developer](https://developer.dynatrace.com/) - All the content you should need to create a Dynatrace app. If you have not seen it, check out our recently released new tutorial. After completing it, you should get a feeling for Dynatrace Apps.
