@@ -26,11 +26,20 @@ You need a Dynatrace SSO to have access to these.  As a partner you can register
 
 Dynatrace is an open and [extensible platform](https://docs.dynatrace.com/docs/extend-dynatrace). Below are some resources for various interfaces.
 
-## APIs
+## Log streaming
 
+* all they need to do is configure it to this [log ingest API](https://docs.dynatrace.com/docs/dynatrace-api/environment-api/log-monitoring-v2/post-ingest-logs) and to have setup an API Token as described in the guide.  
+* A quick way to validate logs coming is with [log viewer](https://docs.dynatrace.com/docs/observe-and-explore/logs/lma-analysis/logs-and-events) or in a [notebook](https://docs.dynatrace.com/docs/observe-and-explore/dashboards-and-notebooks/notebooks).
+
+Learn more about Dynatrace OpenPipeline for data processing
+* [Annoucement Blog](https://www.dynatrace.com/news/blog/dynatrace-openpipeline-converging-observability-security-and-business-data-at-massive-scale-for-unmatched-analytics-in-context/)
+* (Documentation](https://docs.dynatrace.com/docs/platform/openpipeline/concepts/data-flow)
+
+## APIs
+Here are some guide for the API as reference too.
 * [API overview](https://docs.dynatrace.com/docs/dynatrace-api/basics)
 * [Create API Token](https://docs.dynatrace.com/docs/dynatrace-api/basics/dynatrace-api-authentication)
-* Open `https://{your-environment-id}.apps.dynatrace.com/platform/swagger-ui/index.html` for the Swagger Interface for your environment.  Use the top right dropdown to choose the API definition work with. 
+* Open `https://{your-environment-id}.apps.dynatrace.com/platform/swagger-ui/index.html` for the Swagger Interface for your environment.  Use the top right dropdown to choose the API definition work with.
 
 ## OpenTelemetry 
 
