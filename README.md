@@ -14,6 +14,18 @@
 5. Invite users to your account
    * Open account management by opening [the My account URL](https://myaccount.dynatrace.com/accounts) or from the bottom left menu, "Account Management" in the Dynatrace web UI>
    * Dynatrace has role based permissions.  You can made custom groups or easily clone the permissions of an existing users, but stick to `least privileges access` best practice.  Refer to the [Account Managment Docs](https://docs.dynatrace.com/docs/manage/account-management)
+  
+   * I suggest creating a `_Demo Users` and a `_Demo Admins` group.
+     * In My account management, under the `Identity and access management` menu, choose `Groups`
+     * Click add group button
+     * Name it such as: `_Demo Admin`.  The underscore as a prefix is useful later to sort it to the top of the groups list and to distinquish from the build in groups.
+     * Add permissions for environment but not account.  You can, but with the best practice of least access only grant what is needed.  Non-Admins should just have view and limited permissions.
+     * Pick all the policies under environment. Non-Admins should not have admin or policies like to ingest data.
+     * Save it
+   * Then under the `Identity and access management`, pick `People`
+     * Click `Invite user` button
+     * Enter the email and select a group such as `_Demo admins`
+     * Click `Confirm` and the person will get an automated email to login
 
 # Discover and Demo Environments that have exsting sample apps, dashboards, and data
 
@@ -34,7 +46,7 @@ Dynatrace is an open and [extensible platform](https://docs.dynatrace.com/docs/e
 
 Learn more about Dynatrace OpenPipeline for data processing
 * [Annoucement Blog](https://www.dynatrace.com/news/blog/dynatrace-openpipeline-converging-observability-security-and-business-data-at-massive-scale-for-unmatched-analytics-in-context/)
-* (Documentation](https://docs.dynatrace.com/docs/platform/openpipeline/concepts/data-flow)
+* [Documentation](https://docs.dynatrace.com/docs/platform/openpipeline/concepts/data-flow)
 
 ## APIs
 
