@@ -68,6 +68,7 @@ Dynatrace provides the possibility to build custom functionality on top of all t
 
 Here are the resources that should be useful for you:
 * [Dynatrace Developer](https://developer.dynatrace.com/) - All the content you should need to create a Dynatrace app. If you have not seen it, check out our recently released new tutorial. After completing it, you should get a feeling for Dynatrace Apps.
+* [YouTube Video series – Inside Dynatrace Apps](https://www.youtube.com/playlist?list=PLqt2rd0eew1bu5vGLUJ3pr2SgNpnpKb71)
 * [Developer Q&A forum](https://community.dynatrace.com/t5/Developer-Q-A-Forum/bd-p/devs_qanda) - You can ask any question regarding creating a Dynatrace App in this forum. Together with my team, we are responsible for answering the questions there.
 * [Developer newsletter](https://community.dynatrace.com/t5/Developer-Blog/bg-p/dev_blog) All the important changes for developers building Dynatrace Apps monthly.
 * [Monthly office hours session about Dynatrace app development](https://community.dynatrace.com/t5/Events-and-webinars/eb-p/events?filter=includeUpcoming&depth=0&byPassHideMessagesFromListFilter=true&sort_by=occasionStartTime&include_upcoming=true)
