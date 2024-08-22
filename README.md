@@ -59,7 +59,9 @@ Broadly they fall into two categoies:
 1) **Environment, Configuration, and Account Management**
    
 * These are compatible with both Dynatrace SaaS and Managed.
-* They are API Access Token Based and have the base endpoint of `https://{your-environment-id}.live.dynatrace.com`
+* They are API Access Token Based and have the base endpoint of:
+   * SaaS `https://{your-environment-id}.live.dynatrace.com`
+   * Environment or Cluster ActiveGates	`https://{your-activegate-domain}:9999/e/{your-environment-id}`
 * [Environment, Configuration, and Account Management APIs Docs](https://docs.dynatrace.com/docs/dynatrace-api)
 * [Create API Token](https://docs.dynatrace.com/docs/dynatrace-api/basics/dynatrace-api-authentication)
 * Open `https://{your-environment-id}.apps.dynatrace.com/platform/swagger-ui/index.html` for the Swagger Interface for your environment.  Use the top right dropdown to choose the API definition work with.
