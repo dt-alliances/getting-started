@@ -15,7 +15,7 @@ Read [What is Dynatrace](https://docs.dynatrace.com/docs/get-started/what-is-dyn
    * Dynatrace has role based permissions.  You can made custom groups or easily clone the permissions of an existing users, but stick to `least privileges access` best practice.  Refer to the [Account Managment Docs](https://docs.dynatrace.com/docs/manage/account-management)
   
    * I suggest creating a `_Demo Users` and a `_Demo Admins` group.
-     * Within Dynatrace [My account management](https://myaccount.dynatrace.com/accounts, under the `Identity and access management` menu, choose `Groups`
+     * Within Dynatrace [My account management](https://myaccount.dynatrace.com/accounts), under the `Identity and access management` menu, choose `Groups`
      * Click add group button
      * Name it such as: `_Demo Admin`.  The underscore as a prefix is useful later to sort it to the top of the groups list and to distinquish from the build in groups.
      * Add permissions for environment but not account.  You can, but with the best practice of least access only grant what is needed.  Non-Admins should just have view and limited permissions.
