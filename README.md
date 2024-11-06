@@ -8,10 +8,10 @@ Read [What is Dynatrace](https://docs.dynatrace.com/docs/get-started/what-is-dyn
   * Your unique environment ID is `https://{your-environment-id}.live.dynatrace.com`
   * Let Dynatrace technical Allianace team know this environment ID and we can extend the trial with a partner not-for-resale partner license per the terms of our Technical Partner Agreement (TAP)
 
-2. Login and read the [navigate the Dynatrace UI](https://docs.dynatrace.com/docs/get-started/dynatrace-ui) help docuemntation
+2. Login and read the [navigate the Dynatrace UI](https://docs.dynatrace.com/docs/get-started/dynatrace-ui) help documentation
    
 3. Invite users to your account
-   * Open account management by opening [the My account URL](https://myaccount.dynatrace.com/accounts) or from the bottom left menu, "Account Management" in the Dynatrace web UI>
+   * Open account management by opening [the My account URL](https://myaccount.dynatrace.com/accounts) or from the bottom left menu, "Account Management" in the Dynatrace web UI.
    * Dynatrace has role based permissions.  You can made custom groups or easily clone the permissions of an existing users, but stick to `least privileges access` best practice.  Refer to the [Account Managment Docs](https://docs.dynatrace.com/docs/manage/account-management)
   
    * I suggest creating a `_Demo Users` and a `_Demo Admins` group.
